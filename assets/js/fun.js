@@ -4,7 +4,7 @@
 	
 		$(window).konami({
 			cheat: function() {
-				alert( 'Cheat code activated!' );
+				window.location.replace("secret.html");
 			} // end cheat
 		});
 		
