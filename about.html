@@ -7,39 +7,70 @@
 
 	<!-- add styling to the assets/css folder-->
 	<link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/bootswatch.min.css" />
+	<style>
+		body {
+			padding-top: 75px;
+		}
+		
+		@media (max-width: 979px) {
+			body {
+				padding-top: 0px;
+			}
+		}
+	</style>
 
 </head>
 
 <body>
-	<div class="body-center">
-	<!-- navbar -->
-	<div class="navbar">
-		<a href="index.html">Home</a>
-		<a href="about.html">About</a>
-		<a href="resume.html">Resume</a>
-		<a href="projects.html">Projects</a>
-		<a href="contact.html">Contact</a>
-	</div>
-	<!-- end navbar --> 
-	<br><br>
-	
-	<h2>About Me</h2>
-	
-	<img id="profile-picture" src="assets/img/FB Picture.jpg" width="276" height="412" class="floatright" />
-	<p>Hello! My name is Shunhua Fu, and I am currently a Computer Science major at the University of Illinois at Urbana-Champaign.
-	Colloquially, I just go by Sam. I am into trying out new things and being spontaneous. In my free time, I like to run and play tennis, 
-	as well as dance (pop and locking). I've done lots of cool things, so feel free to stay awhile and look around.</p>
-	
-	<p>I enjoy Computer Science because of the possibilities that lie just beyond my fingertips. It is refreshing that I am the only 
-	limiting factor in my programs; what my code can and cannot do is only limited by my imagination. I especially like back end development 
-	and writing algorithms because they are no different than puzzles like Rubik's Cubes and Gundam models. Besides, people think I'm a wizard.</p>
-	
-	<p>Thanks for checking out my website! If you're interested, take a look at my <a href="assets/ShunhuaSamFuResume.pdf">résumé</a>.</p>
+	<div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand">Shunhua Fu</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+		    <li>
+			  <a href="index.html">Home</a>
+			</li>
+			<li>
+			  <a href="about.html">About</a>
+			</li>
+			<li>
+			  <a href="resume.html">Resume</a>
+			</li>
+			<li>
+			  <a href="projects.html">Projects</a>
+			</li>
+			<li>
+			  <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-</body>
-
-</div>
+	<div class="container">
 	
+		<h2>About Me</h2>
+	
+		<img id="profile-picture" src="assets/img/FB Picture.jpg" width="276" height="412" class="floatright" />
+		<p>Hello! My name is Shunhua Fu, and I am currently a Computer Science major at the University of Illinois at Urbana-Champaign.
+		Colloquially, I just go by Sam. I am into trying out new things and being spontaneous. In my free time, I like to run and play tennis, 
+		as well as dance (pop and locking). I've done lots of cool things, so feel free to stay awhile and look around.</p>
+	
+		<p>I enjoy Computer Science because of the possibilities that lie just beyond my fingertips. It is refreshing that I am the only 
+		limiting factor in my programs; what my code can and cannot do is only limited by my imagination. I especially like back end development 
+		and writing algorithms because they are no different than puzzles like Rubik's Cubes and Gundam models. Besides, people think I'm a wizard.</p>
+	
+		<p>Thanks for checking out my website! If you're interested, take a look at my <a href="assets/ShunhuaSamFuResume.pdf">résumé</a>.</p>
+
 	</div>
 
 
@@ -50,6 +81,8 @@
 	<script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.konami.min.js"></script> 
 	<script type="text/javascript" src="assets/js/fun.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootswatch.js"></script>
 	
 </body>
 </html>
