@@ -1,13 +1,5 @@
 @charset "utf-8";
 
-.navbar
-{
-	float:left;
-	padding:5px;
-	margin-top:20px;
-	display:block;
-}
-
 .clearfix
 {
 	clear:both;
